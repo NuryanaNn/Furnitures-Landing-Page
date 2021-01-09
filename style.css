@@ -1,0 +1,108 @@
+/* Section Pertama */
+.jumbotron{
+    background-image: url(jumbotron.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.koleksi_sofa{
+    background-color: aqua;
+    height: 200px;
+    padding-top: 50px;
+    color: white;
+    padding-left: 40px;
+}
+
+.koleksi_sofa h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.banner_sofa img{
+    width: 300px;
+}
+
+.sofa2{
+    float: right;
+}
+
+.big_img_sofa img{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+/* Section Kedua */
+.lamp1{
+    background-color: purple;
+    height: 200px;
+    padding-top: 50px;
+    color: white;
+    padding-left: 40px;
+}
+
+.lampu{
+    height: 500px;
+    width: 300px;
+}
+
+.lamp2 img{
+    height: 500px;
+    width: 890px;
+}
+
+/* Desktop Version */
+/* Gambar Sofa Pertama */
+@media(min-width:992px){
+    /* Section Pertama */
+    .jumbotron{
+        background-image: url(jumbotron.png);
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -59px;
+    }
+
+
+.big_img_sofa{
+    float: left;
+    margin-left: -200px;
+    margin-top: -23px;
+}
+
+
+.big_img_sofa img{
+    height: 500px;
+    width: 890px;
+    margin-left: 200px;
+    margin-top: -220px;
+}
+
+.card{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.lampu{
+    height: 700px;
+    width: 890px;
+}
+
+.lamp3{
+    margin-top: -350px;
+}
+
+/* Section Kedua */
+
+
+/* Section Ketiga */
+.koleksi_kursi{
+    background-color: green;
+    height: 200px;
+    padding-top: 50px;
+    color: white;
+    padding-left: 40px;
+}
+}
